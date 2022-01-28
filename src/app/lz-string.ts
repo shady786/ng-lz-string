@@ -10,4 +10,9 @@ export class LZString {
     // TODO: Code to decompress
     return JSLZString.decompress(compressed);
   }
+
+  decompressFromBase64(compressed: string) {
+    // TODO: Code to decompress
+    return JSLZString.decompressFromBase64(compressed);
+  }
 }
